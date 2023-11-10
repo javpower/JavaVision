@@ -1,0 +1,49 @@
+server:
+  port: 6888
+  servlet:
+    context-path: /
+  tomcat:
+    uri-encoding: UTF-8
+    threads:
+      max: 1000
+      min-spare: 100
+    accept-count: 1000
+    max-connections: 10000
+
+# spring配置
+spring:
+  application:
+    name: JavaVision
+  jackson:
+    date-format: yyy-MM-dd HH:mm:ss
+    time-zone: Asia/Shanghai
+  banner:
+    charset: UTF-8
+    location: classpath:banner.txt
+  servlet:
+    multipart:
+      max-file-size: 20MB
+      max-request-size: 200MB
+
+
+ocr:
+  # 文件上传相关配置
+  file:
+    # 上传文件访问路径
+    accessPath: /file/**
+    # 上传文件保存路径
+    uploadPath: /opt/ocr/
+vision:
+  # swagger配置
+  openapi:
+    title: vision API Docs
+    description: vision接口文档
+    terms-of-service: https://javavision.com
+    contact-name: gc
+    contact-url: https://vision.io
+    contact-email: javpower@163.com
+    version: 1.0
+    external-description: vision
+    external-url: https://vision
+    packagedToMatch:
+      - com.github.javpower.javavision.controller
