@@ -729,4 +729,4 @@ docker一键部署
 
 ## 开源许可
 
-使用 [Apache License 2.0](https://github.com/MyMonsterCat/DeviceTouch/blob/main/LICENSE)
+使用 [Apache License 2.0](https://gitee.com/giteeClass/java-vision/raw/master/LICENSE)
