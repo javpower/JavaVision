@@ -34,12 +34,6 @@ docker一键部署
 
 >   <img src="./docs/img/pdocr.png" style="zoom:100%;" />
 
-## 鸣谢
-
-- [RapidOcr-Java](https://github.com/MyMonsterCat/RapidOcr-Java)
-- [RapidOCR](https://github.com/RapidAI/RapidOCR)
-- [PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR)
-- [AIAS](https://gitee.com/mymagicpower/AIAS)
 
 ## 🔝 项目API
 
